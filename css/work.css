@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "TRY Vesterbro";
+    src: url("../fonts/vesterbro/TRYVesterbro-Medium.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "TRY Vesterbro";
+    src: url("../fonts/vesterbro/TRYVesterbro-Regular.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "TRY Vesterbro";
+    src: url("../fonts/vesterbro/TRYVesterbro-Bold.otf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Big Caslon";
+    src: url("../fonts/BigCaslon.ttf");
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../fonts/graphik/GraphikRegular.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Graphik";
+    font-weight: 600;
+    src: url("../fonts/graphik/GraphikMedium.otf");
+}
+
+@font-face {
+    font-family: "Graphik Italics";
+    font-weight: 300;
+    src: url("../fonts/graphik/GraphikLightItalic.otf");
+}
+
+@font-face {
+    font-family: "Graphik";
+    font-weight: 300;
+    src: url("../fonts/graphik/GraphikLight.otf");
+}
+
+nav{
+    /* background-color: #DB5A5A; */
+    padding: 60px 110px;
+    z-index: 99;
+    width: 100vw;
+    max-width:100%;
+}
+
+.logo {
+    font-family: sans-serif;
+    letter-spacing: -5;
+    font-size: 30px;
+    color: #FC6464;
+    font-weight: 400;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #3B3B3B;
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: -0.6px;
+}
+
+h1.pageTitle{
+    font: normal normal 600 81px/108px 'Graphik';
+    letter-spacing: -1.62px;
+    color: #2C2C2C;
+    margin: 15px 0 0 110px;
+}
+
+.projects{
+    padding: 102px 110px 81px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects .project{
+    position: relative;
+    width: 26vw;
+    height: 26vw;
+}
+
+.projects .project img{
+    width: 26vw;
+}
+
+.projects .project .bottomBox{
+    bottom: 0;
+    padding: 15px 30px;
+    background-color: #000000;
+    color: #fff;
+    width: inherit;
+    position: absolute;
+}
+
+.projects .project .bottomBox .topLine{
+    display: flex;
+    align-items: flex-start;
+}
+
+.projects .project .bottomBox .topLine .companyName{
+    font: normal normal 600 24px/26px 'Graphik';
+    letter-spacing: -1.2px;
+    display: flex;
+    align-items: center;
+}
+
+.projects .project .bottomBox .topLine .companyName::after{
+    content: "• ";
+    padding: 0 15px;
+}
+
+.projects .project .bottomBox .topLine .industry{
+    font: normal normal 600 19px/27px 'Graphik';
+    letter-spacing: -.8px;
+    display: flex;
+    align-items: center;
+}
+
+.projects .project .bottomBox .topLine .industry span{
+    font: normal normal 300 19px/27px 'Graphik';
+    margin-right: 1.2px;
+}
+
+.projects .project .bottomBox .bottomLine{
+    margin-top: 6px;
+    font: normal normal 600 15px/20px Graphik;
+    letter-spacing: -0.3px;
+}
+
+.quote{
+    margin-left: 110px;
+    width: 40vw;
+    font: normal normal 600 70px/70px 'Graphik';
+    letter-spacing: -4.2px;
+    color: #FC6464;
+}
+.quote span{
+    font: normal normal 600 70px/70px 'TRY Vesterbro';
+    letter-spacing: -4.2px;
+    color: #464646;
+}
+
+.meet{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+    padding: 90px 110px;
+    background-color: #F86363;
+}
+
+.meet .left h1{
+    font: normal normal 500 75px/80px 'Graphik';
+    letter-spacing: -4.5px;
+    color: #fff;
+}
+
+.meet .left h2 {
+    margin-top:  60px;
+    font: normal normal 400 60px/62px 'TRY Vesterbro';
+    letter-spacing: -2.4px;
+    color: #FFFFFF;
+}
+
+.meet .right h3{
+    font: normal normal 500 24px/54px 'Graphik';
+    letter-spacing: -1.44px;
+    color: #FFFFFF;
+}
+
+.meet .right h1{
+    font: normal normal 300 42px 'Graphik';
+    letter-spacing: -1.26px;
+    color: #FFFFFF;
+}
+
+.tagline{
+    background: transparent linear-gradient(90deg, #B75252 0%, #2E2E2E 100%) 0% 0% no-repeat padding-box;
+    padding: 54px 0;
+    font: normal normal 40px/48px Big Caslon;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 110px;
+    background-color: #000000;
+}
+
+footer h1{
+    font: normal normal 600 30px/70px 'Graphik';
+    letter-spacing: -1.8px;
+    color: #DB5A5A;
+}
+
+footer h4{
+    font: normal normal 500 21px/70px Graphik;
+    letter-spacing: -1.26px;
+    color: #FFFFFF;
+}
+
+footer h4 span{
+    font: normal normal 600 21px/70px Graphik;
+}

@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "TRY Vesterbro";
+    src: url("../fonts/vesterbro/TRYVesterbro-Medium.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "TRY Vesterbro";
+    src: url("../fonts/vesterbro/TRYVesterbro-Regular.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "TRY Vesterbro";
+    src: url("../fonts/vesterbro/TRYVesterbro-Bold.otf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Big Caslon";
+    src: url("../fonts/BigCaslon.ttf");
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../fonts/graphik/GraphikRegular.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Graphik";
+    font-weight: 600;
+    src: url("../fonts/graphik/GraphikMedium.otf");
+}
+
+@font-face {
+    font-family: "Graphik Italics";
+    font-weight: 300;
+    src: url("../fonts/graphik/GraphikLightItalic.otf");
+}
+
+@font-face {
+    font-family: "Graphik";
+    font-weight: 300;
+    src: url("../fonts/graphik/GraphikLight.otf");
+}
+
+nav{
+    /* background-color: #DB5A5A; */
+    position: absolute;
+    padding: 60px 110px;
+    z-index: 99;
+    width: 100vw;
+    max-width:100%;
+}
+
+.logo {
+    font-family: sans-serif;
+    letter-spacing: -5;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: -0.6px;
+}
+
+.hero {
+    background-color: #DB5A5A;
+    height: 100vh;
+    top: 0;
+    position: relative;
+}
+
+.hero .title{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    left: 50%;
+    font:normal normal 60px/72px 'Big Caslon';
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.hero .watermark{
+    opacity: 20%;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #fff;
+    font:normal normal 196px/216px 'Big Caslon';
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.hero .scroll{
+    top: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero .scroll h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.latest{
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 120px 72px 72px;
+}
+
+.latest .leftImage{
+    width: 60vw;
+}
+
+.latest .projectInfo{
+    width: 27vw;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.latest .projectInfo .content{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+    color: #fff;
+}
+
+.latest .projectInfo .content h4{
+    color: #F86363;
+    font: normal normal 600 21px/80px 'Graphik';
+    letter-spacing: -0.63px;
+}
+
+.latest .projectInfo .content h1{
+    font: normal normal 600 50px/52px 'Graphik';
+    color: #1D1D1D;
+    letter-spacing: -2px;
+}
+
+.latest .projectInfo .content h1 span{
+    font:normal normal 50px/52px 'Big Caslon';
+    color: #F86363;
+}
+
+.latest .projectInfo .content p{
+    margin-top: 24px;
+    font: italic normal 300 18px/24px 'Graphik Italics';
+    letter-spacing: -0.3px;
+    color: #000000;
+    width: fit-content;
+    margin-bottom: 24px;
+}
+
+.latest .projectInfo .content .tags .row1{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.latest .projectInfo .content .tags .tag{
+    background-color: #F86363;
+    padding: 12px 32px;
+    width: fit-content;
+    border-radius: 27px;
+    color: #fff;
+    letter-spacing: -0.6px;
+    margin-right: 15px;
+    white-space: nowrap;
+    font: normal normal 500 18px/30px 'Graphik';
+}
+
+.latest .projectInfo .content .tags .row2{
+    display: flex;
+    align-items: flex-start;
+}
+
+.latest .projectInfo .content .readMore {
+    font: normal normal 500 18px 'Graphik';
+    color: #F86363;
+}
+
+.latest .projectInfo .content .readMore i{
+    font-size: large;
+    padding: 0px 0 0 6px;
+}
+
+.vennDiagram{
+    display: flex;
+    justify-content:flex-end;
+    padding: 72px 120px 72px 120px;
+    background-color: #FFF8F8;
+}
+
+.vennDiagram img{
+    height: 60vh;
+}
+
+.boldText{
+    margin-top: 150px;
+    display: flex;
+    max-width: 100vw;
+    padding-bottom: 60px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.boldText .first{
+    margin-left: -8vh;
+    width: 42vh;
+    letter-spacing: -7.2px;
+    font:normal normal 600 96px/96px 'Graphik';
+}
+
+.boldText .first span{
+    font: italic normal normal 96px/96px Serif;
+    letter-spacing: -6px;
+    color: #F86363;
+}
+
+.boldText .second{
+    width: 42vh;
+    letter-spacing: -2.4px;
+    font:normal normal 600 96px/96px 'Big Caslon';
+}
+
+.boldText .second span{
+    color: #F86363;
+    font:normal normal 600 96px/96px 'Graphik';
+}
+
+.boldText .third{
+    margin-right: -8vh;
+    width: 42vh;
+    letter-spacing: -7.2px;
+    font:normal normal 600 96px/96px 'Graphik';
+}
+
+.boldText .third .red{
+    color: #F86363;
+    letter-spacing: -7.2px;
+    font:normal normal 600 96px/96px 'Graphik';
+}
+
+.boldText .third span{
+    font: italic normal normal 96px/96px Serif;
+    letter-spacing: -6px;
+}
+
+.about {
+    overflow: hidden;
+    display: flex;
+    padding: 60px 110px;
+    justify-content: space-between;
+}
+
+.about .left{
+    width: 60vw;
+}
+
+.about .left .company .heading{
+    font: normal normal 600 50px/33px 'Graphik';
+    letter-spacing: -1px;
+    color: #2C2C2C;
+    margin-bottom: 30px;
+}
+
+.about .left .company p{
+    font: normal normal normal 24px/30px Graphik;
+    letter-spacing: -0.54px;
+    color: #2C2C2C;
+}
+
+.about .left .method{
+    margin-top: 160px;
+}
+
+.about .left .method .heading{
+    font: normal normal 600 50px/33px 'Graphik';
+    letter-spacing: -1px;
+    color: #2C2C2C;
+    margin-bottom: 30px;
+}
+
+.about .left .method p{
+    font: normal normal normal 24px/30px Graphik;
+    letter-spacing: -0.54px;
+    color: #2C2C2C;
+}
+
+.about .left .method p span{
+    margin-left: 5vh;
+    z-index: 10;
+}
+
+.about .left .method p span::before{
+    content: "• ";
+    position: absolute;
+    font-size: 330px;
+    color: #F86363;
+    z-index: 0;
+    transform: translate(-50%, -20%);
+    mix-blend-mode: overlay;
+}
+
+.about .right{
+    position: relative;
+}
+
+.about .right .title{
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    right: -20vh;
+    white-space: nowrap;
+    transform: translate(0, -50%);
+    font: normal normal 600 112px/112px 'Graphik';
+    letter-spacing: -2.4px;
+    color: #2C2C2C;
+}
+
+.about .right .title span{
+    font: normal normal 300 112px/112px 'TRY Vesterbro';
+    color: #F86363;
+    letter-spacing: -4px;
+}
+
+.about .right .title span.bottom{
+    margin-left: 12vh;
+}
+
+.faq{
+    background-color: #F5F5F5;
+    padding: 90px 110px;
+}
+
+.faq h1{
+    font: normal normal 600 40px/53px 'Graphik';
+    letter-spacing: -0.8px;
+}
+
+.faq .row{
+    display: flex;
+    padding-top: 54px;
+    justify-content: space-between;
+}
+
+.faq .row .question{
+    background-color: #313131;
+    width: 26vw;
+    padding: 42px 60px;
+    height: fit-content;
+}
+
+.faq .row .question .heading{
+    font: normal normal 400 20px/26px 'Graphik';
+    letter-spacing: -.6px;
+    color: #FFFFFF;
+}
+
+.faq .row .question .answer{
+    margin-top: 24px;
+    font: normal normal 300 16px/24px 'Graphik';
+    letter-spacing: -0.32px;
+    color: #EFEFEF;
+}
+
+.faq .contact{
+    margin-top: -21vh;
+    width: 57vw;
+    height: 21vh;
+    border-radius: 108px;
+    background: transparent linear-gradient(95deg, #313131 0%, #626262 100%) 0% 0% no-repeat padding-box;
+    padding: 54px 100px;
+}
+
+.faq .contact h1{
+    font: normal normal 500 42px/55px 'Graphik';
+    letter-spacing: -2.52px;
+    color: #fff;
+}
+
+.faq .contact h1 span{
+    font: italic normal 300 42px/55px 'Graphik';
+    letter-spacing: -2.52px;
+}
+
+.faq .contact::before{
+    content: '';
+  display: block;
+  height:      75px;
+  margin-top: -75px;
+    visibility: hidden;
+}
+
+.meet{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 110px;
+    background-color: #F86363;
+}
+
+.meet .left h1{
+    font: normal normal 500 75px/80px 'Graphik';
+    letter-spacing: -4.5px;
+    color: #fff;
+}
+
+.meet .left h2 {
+    margin-top:  60px;
+    font: normal normal 400 60px/62px 'TRY Vesterbro';
+    letter-spacing: -2.4px;
+    color: #FFFFFF;
+}
+
+.meet .right h3{
+    font: normal normal 500 24px/54px 'Graphik';
+    letter-spacing: -1.44px;
+    color: #FFFFFF;
+}
+
+.meet .right h1{
+    font: normal normal 300 42px 'Graphik';
+    letter-spacing: -1.26px;
+    color: #FFFFFF;
+}
+
+.tagline{
+    background: transparent linear-gradient(90deg, #B75252 0%, #2E2E2E 100%) 0% 0% no-repeat padding-box;
+    padding: 54px 0;
+    font: normal normal 40px/48px Big Caslon;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 110px;
+    background-color: #000000;
+}
+
+footer h1{
+    font: normal normal 600 30px/70px 'Graphik';
+    letter-spacing: -1.8px;
+    color: #DB5A5A;
+}
+
+footer h4{
+    font: normal normal 500 21px/70px Graphik;
+    letter-spacing: -1.26px;
+    color: #FFFFFF;
+}
+
+footer h4 span{
+    font: normal normal 600 21px/70px Graphik;
+}
