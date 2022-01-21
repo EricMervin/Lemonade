@@ -505,6 +505,9 @@ footer h4 span{
 @media (max-width: 480px){
    nav{
        padding: 30px;
+       position: fixed;
+       background-color: #F86363;
+       z-index: 9;
    } 
 
    nav .mainMenu{
