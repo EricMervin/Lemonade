@@ -63,11 +63,12 @@ nav{
 }
 
 .logo {
-    font-family: sans-serif;
-    letter-spacing: -5;
-    font-size: 30px;
+    font: normal normal normal 27px/27px 'Graphik';
+    letter-spacing: -1.6px;
     color: #fff;
-    font-weight: 400;
+    /* font-family: 'Graphik'; */
+    /* font-size: 27px; */
+    /* font-weight: 400; */
 }
 
 nav .mainMenu{
@@ -80,12 +81,13 @@ nav .mainMenu li{
 }
 
 nav .mainMenu li a{
-    font-family: sans-serif;
+    font: normal normal 400 21px/27px 'Graphik';
     text-decoration: none;
     color: #fff;
-    font-size: 21px;
-    font-weight: 100;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.4px;
+    /* font-family: 'Graphik'; */
+    /* font-size: 21px;
+    font-weight: 100; */
 }
 
 nav .openMenu{
@@ -504,7 +506,7 @@ footer h4 span{
 
 @media (max-width: 480px){
    nav{
-       padding: 24px 30px;
+       padding: 27px 30px;
        position: fixed;
        background-color: #f86363ef;
        z-index: 9;
@@ -540,16 +542,17 @@ footer h4 span{
 
    nav .openMenu{
        display: block;
+       font: normal normal normal 21px/30px 'Graphik';
    }
    
    .icons i{
        display: inline-block;
        padding: 24px;
    }
-
+   
    .logo{
-       font-size: 24px;
-   }
+       font: normal normal normal 21px/30px 'Graphik';
+    }
 
    .checkbtn{
        display: block;
