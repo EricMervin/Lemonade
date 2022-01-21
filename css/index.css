@@ -504,10 +504,11 @@ footer h4 span{
 
 @media (max-width: 480px){
    nav{
-       padding: 30px;
+       padding: 24px 30px;
        position: fixed;
-       background-color: #F86363;
+       background-color: #f86363ef;
        z-index: 9;
+       backdrop-filter: blur(3px);
    } 
 
    nav .mainMenu{
@@ -533,7 +534,7 @@ footer h4 span{
    nav .mainMenu .closeMenu{
        display: block;
        position: absolute;
-       top: 30px; 
+       top: 24px; 
        right: 30px;
    }
 
