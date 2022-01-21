@@ -12,6 +12,7 @@ function show() {
 }
 
 function close() {
-    mainMenu.style.top = '-100%';
+    mainMenu.style.top = '-100vh';
+    mainMenu.style.display = 'none';
     // openMenu.style.zIndex = '10';
 }

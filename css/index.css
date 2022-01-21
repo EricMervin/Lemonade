@@ -518,7 +518,8 @@ footer h4 span{
        align-items: center;
        background: #222;
        z-index: 10;
-       transform: .8s top ease-in;
+       transform: top .8s ease-in;
+       -webkit-transform: top .8s ease-in;
        display: none;
    }
 
