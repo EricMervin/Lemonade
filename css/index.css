@@ -302,7 +302,7 @@ nav ul li a{
 }
 
 .about .left .company p{
-    font: normal normal normal 24px/30px Graphik;
+    font: normal normal normal 24px/30px 'Graphik';
     letter-spacing: -0.54px;
     color: #2C2C2C;
 }
@@ -325,7 +325,8 @@ nav ul li a{
 }
 
 .about .left .method p span{
-    margin-left: 5vh;
+    display: block;
+    margin-left: 2vw;
     z-index: 10;
 }
 
@@ -421,14 +422,6 @@ nav ul li a{
     letter-spacing: -2.52px;
 }
 
-.faq .contact::before{
-    content: '';
-  display: block;
-  height:      75px;
-  margin-top: -75px;
-    visibility: hidden;
-}
-
 .meet{
     display: flex;
     justify-content: space-between;
@@ -465,7 +458,7 @@ nav ul li a{
 .tagline{
     background: transparent linear-gradient(90deg, #B75252 0%, #2E2E2E 100%) 0% 0% no-repeat padding-box;
     padding: 54px 0;
-    font: normal normal 40px/48px Big Caslon;
+    font: normal normal 40px/48px 'Big Caslon';
     color: #fff;
     letter-spacing: 0;
     text-align: center;
@@ -485,13 +478,13 @@ footer h1{
 }
 
 footer h4{
-    font: normal normal 500 21px/70px Graphik;
+    font: normal normal 500 21px/70px 'Graphik';
     letter-spacing: -1.26px;
     color: #FFFFFF;
 }
 
 footer h4 span{
-    font: normal normal 600 21px/70px Graphik;
+    font: normal normal 600 21px/70px 'Graphik';
 }
 
 @media (max-width: 480px){
@@ -517,7 +510,7 @@ footer h4 span{
    }
 
    .hero .watermark{
-       visibility: hidden;
+       display: none;
    }
 
    .hero .scroll{
@@ -599,6 +592,8 @@ footer h4 span{
     }
 
     .boldText .first{
+        margin-left: -18vw;
+        width: 18vw;
         letter-spacing: -1.8px;
         font:normal normal 600 30px/29px 'Graphik';
     }
@@ -609,6 +604,8 @@ footer h4 span{
     }
 
     .boldText .second{
+        /* margin-left: -9vw; */
+        width: 18vw;
         letter-spacing: -1.8px;
         font:normal normal 600 30px/29px 'Graphik';
     }
@@ -619,6 +616,8 @@ footer h4 span{
     }
 
     .boldText .third{
+        margin-right: 0vw;
+        width: 18vw;
         letter-spacing: -1.8px;
         font:normal normal 600 30px/29px 'Graphik';
     }
@@ -633,15 +632,152 @@ footer h4 span{
         font:normal normal 600 30px/29px Serif;
     }
 
+    .about{
+        padding: 36px 30px;
+    }
+
+    .about .left{
+        width:80vw;
+    }
+
+    .about .left .company .heading{
+        font: normal normal 600 33px/33px 'Graphik';
+        margin-bottom: 24px;
+    }
+
+    .about .left .company p{
+        font: normal normal normal 15px/18px 'Graphik';
+        letter-spacing: -0.54px;
+    }
+
+    .about .left .method{
+        margin-top: 72px;
+    }
+
+    .about .left .method .heading{
+        font: normal normal 600 33px/33px 'Graphik';
+        margin-bottom: 24px;
+    }
+
+    .about .left .method p{
+        font: normal normal normal 15px/18px 'Graphik';
+        letter-spacing: -0.54px;
+    }
+
+    .about .left .method p span{
+        display: block;
+        padding-left: 12px;
+    }
+
+    .about .left .method p span::before{
+        font-size: 180px;
+        transform: translate(-50%, 25%);
+    }
+
+    .about .right .title{
+        top: 57%;
+        right: -18vw;
+        font: normal normal 600 33px/33px 'Graphik';
+        letter-spacing: -0.54px;
+    }
+
+    .about .right .title span{
+        font: normal normal 300 33px/33px 'TRY Vesterbro';
+        letter-spacing: -1px;
+    }
+
+    .about .right .title span.bottom{
+        margin-left: 11vw;
+    }
+
+    .faq{
+        padding: 45px 30px;
+    }
+
+    .faq h1{
+        font: normal normal 600 33px/33px 'Graphik';
+        letter-spacing: -0.66px;
+    }
+
+    .faq .row{
+        justify-content: none;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+        margin-top: -27px;
+    }
+
+    .faq .row .question{
+        width: 100%;
+        padding: 24px 27px;
+    }
+
+    .faq .row .question .heading{
+        font: normal normal 400 15px/18px 'Graphik';
+        letter-spacing: -0.84px;
+    }
+
+    .faq .row .question .answer {
+        margin-top: 18px;
+        font: normal normal 300 12px/16px 'Graphik';
+        letter-spacing: -0.24px;
+    }
+
+    .faq .contact{
+        display: none;
+    }
+
     .meet{
-        visibility: hidden;
+        justify-content: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 60px 30px;
+        row-gap: 120px;
+    }
+
+    .meet .left h1{
+        font: normal normal 500 37px/40px 'Graphik';
+        letter-spacing: -2.22px;
+    }
+
+    .meet .left h2{
+        width: 100%;
+        margin-top:  36px;
+        font: normal normal 400 25px/27px 'TRY Vesterbro';
+        letter-spacing: -1px;
+    }
+
+    .meet .right h3{
+        font: normal normal 500 15px/33px 'Graphik';
+        letter-spacing: -0.9px;
+    }
+
+    .meet .right h1{
+        font: normal normal 300 28px 'Graphik';
+        letter-spacing: -0.78px;
+        padding-bottom: 15px;
     }
 
     .tagline{
-        visibility: hidden;
+        padding: 30px 0;
+        font: normal normal 18px/21px 'Big Caslon';
     }
 
     footer{
-        visibility: hidden;
+        padding: 30px 30px;
+    }
+
+    footer h1{
+        font: normal normal 600 18px/33px 'Graphik';
+        letter-spacing: -1.08px;
+    }
+
+    footer h4{
+        font: normal normal 500 10px/33px 'Graphik';
+        letter-spacing: -0.6px;
+    }
+
+    footer h4 span{
+        font: normal normal 600 10px/33px 'Graphik';
     }
 }
