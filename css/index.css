@@ -493,3 +493,86 @@ footer h4{
 footer h4 span{
     font: normal normal 600 21px/70px Graphik;
 }
+
+@media (max-width: 480px){
+   nav{
+       padding: 30px;
+   } 
+
+   nav ul{
+       visibility: hidden;
+   }
+
+   .logo{
+       font-size: 18px;
+   }
+
+   .hero .title{
+        font: normal normal 600 45px/48px 'Big Caslon';
+        transform: none;
+        top: 270px;
+        left: 30px;
+        right: 30px;
+        white-space: normal;
+   }
+
+   .hero .watermark{
+       visibility: hidden;
+   }
+
+   .hero .scroll{
+       top: 90%;
+   }
+
+   .hero .scroll h2{
+       font: normal normal normal 17px/23px 'Graphik';
+       letter-spacing: -0.51px;
+       white-space: nowrap;
+   }
+
+   .latest{
+       display: flex;
+       align-items: center;
+       padding: 36px 30px;
+       flex-direction: column;
+   }
+
+   .latest .leftImage{
+       width: 80vw;
+   }
+
+   .latest .projectInfo{
+       width: 80vw;
+   }
+
+   .latest .projectInfo .content h4{
+       font: normal normal 600 14px/67px 'Graphik';
+       letter-spacing: -0.42px;
+   }   
+
+   .latest .projectInfo .content h1{
+       font: normal normal medium 33px/21px 'Graphik';
+       margin-top: -20px;
+       letter-spacing: -1.49px;
+   }
+
+   .latest .projectInfo .content h1 span{
+       font: normal normal medium 33px/34px 'Big Caslon';
+       letter-spacing: -1.49px;
+   }
+
+   .latest .projectInfo .content p{
+       font: italic normal 300 15px/18px 'Graphik Italics';
+       margin: 18px 0;
+   }
+
+   .latest .projectInfo .content .tags{
+       row-gap: 9px;
+   }
+
+   .latest .projectInfo .content .tags .tag{
+       padding: 9px 18px;
+       margin-right: 12px;
+       font: normal normal 500 13px'Graphik';
+   }
+}
