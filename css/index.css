@@ -58,7 +58,6 @@ nav{
     /* background-color: #DB5A5A; */
     position: absolute;
     padding: 60px 110px;
-    z-index: 1;
     width: 100vw;
     max-width:100%;
 }
@@ -108,6 +107,7 @@ nav .closeMenu, .icons i{
     background-color: #F86363;
     height: 100vh;
     top: 0;
+    z-index: -1;
     position: relative;
 }
 
