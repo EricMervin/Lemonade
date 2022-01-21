@@ -517,7 +517,7 @@ footer h4 span{
        justify-content: center;
        align-items: center;
        background: #F86363;
-       z-index: 99;
+       z-index: 10;
        transform: .8s top ease-in;
        display: none;
    }

@@ -13,4 +13,5 @@ function show() {
 
 function close() {
     mainMenu.style.top = '-100%';
+    // openMenu.style.zIndex = '10';
 }
