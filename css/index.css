@@ -242,8 +242,8 @@ nav ul li a{
 }
 
 .boldText .first{
-    margin-left: -8vh;
-    width: 42vh;
+    margin-left: -2vw;
+    width: 21vw;
     letter-spacing: -7.2px;
     font:normal normal 600 96px/96px 'Graphik';
 }
@@ -255,7 +255,7 @@ nav ul li a{
 }
 
 .boldText .second{
-    width: 42vh;
+    width: 21vw;
     letter-spacing: -2.4px;
     font:normal normal 600 96px/96px 'Big Caslon';
 }
@@ -266,8 +266,8 @@ nav ul li a{
 }
 
 .boldText .third{
-    margin-right: -8vh;
-    width: 42vh;
+    margin-right: -2vw;
+    width: 21vw;
     letter-spacing: -7.2px;
     font:normal normal 600 96px/96px 'Graphik';
 }
@@ -510,7 +510,7 @@ footer h4 span{
    .hero .title{
         font: normal normal 600 45px/48px 'Big Caslon';
         transform: none;
-        top: 270px;
+        top: 240px;
         left: 30px;
         right: 30px;
         white-space: normal;
@@ -521,7 +521,7 @@ footer h4 span{
    }
 
    .hero .scroll{
-       top: 90%;
+       top: 80%;
    }
 
    .hero .scroll h2{
@@ -575,4 +575,73 @@ footer h4 span{
        margin-right: 12px;
        font: normal normal 500 13px'Graphik';
    }
+
+   .latest .projectInfo .content .readMore{
+       font: normal normal 500 13px'Graphik';
+   }
+
+   .latest .projectInfo .content .readMore i{
+       font-size: small;
+       padding: 0px 0 0 3px;
+    }
+
+    .vennDiagram{
+        justify-content: center;
+        padding: 45px 0;
+    }
+
+    .vennDiagram img{
+        width: 80vw;
+    }
+
+    .boldText{
+        margin-top: 72px;
+    }
+
+    .boldText .first{
+        letter-spacing: -1.8px;
+        font:normal normal 600 30px/29px 'Graphik';
+    }
+
+    .boldText .first span{
+        letter-spacing: -1.8px;
+        font:normal normal 600 30px/29px Serif;
+    }
+
+    .boldText .second{
+        letter-spacing: -1.8px;
+        font:normal normal 600 30px/29px 'Graphik';
+    }
+
+    .boldText .second span{
+        letter-spacing: -1.8px;
+        font:normal normal 600 30px/29px Serif;
+    }
+
+    .boldText .third{
+        letter-spacing: -1.8px;
+        font:normal normal 600 30px/29px 'Graphik';
+    }
+
+    .boldText .third .red{
+        letter-spacing: -1.8px;
+        font:normal normal 600 30px/29px 'Graphik';
+    }
+
+    .boldText .third span{
+        letter-spacing: -1.8px;
+        font:normal normal 600 30px/29px Serif;
+    }
+
+    .meet{
+        visibility: hidden;
+    }
+
+    .tagline{
+        visibility: hidden;
+    }
+
+    footer{
+        visibility: hidden;
+    }
 }
