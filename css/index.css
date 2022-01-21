@@ -58,7 +58,7 @@ nav{
     /* background-color: #DB5A5A; */
     position: absolute;
     padding: 60px 110px;
-    z-index: 99;
+    z-index: 1;
     width: 100vw;
     max-width:100%;
 }
@@ -71,16 +71,16 @@ nav{
     font-weight: 400;
 }
 
-nav ul{
+nav .mainMenu{
     float: right;
 }
 
-nav ul li{
+nav .mainMenu li{
     display: inline-block;
     margin: 0 0 0 35px;
 }
 
-nav ul li a{
+nav .mainMenu li a{
     font-family: sans-serif;
     text-decoration: none;
     color: #fff;
@@ -89,8 +89,23 @@ nav ul li a{
     letter-spacing: -0.6px;
 }
 
+nav .openMenu{
+    color: #fff;
+    float: right;
+    font-size: 21px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .closeMenu, .icons i{
+    font-size: 21px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
 .hero {
-    background-color: #DB5A5A;
+    background-color: #F86363;
     height: 100vh;
     top: 0;
     position: relative;
@@ -104,7 +119,7 @@ nav ul li a{
     left: 50%;
     font:normal normal 60px/72px 'Big Caslon';
     transform: translate(-50%, -50%);
-    z-index: 99;
+    /* z-index: 1; */
 }
 
 .hero .watermark{
@@ -327,7 +342,7 @@ nav ul li a{
 .about .left .method p span{
     display: block;
     margin-left: 2vw;
-    z-index: 10;
+    z-index: 8;
 }
 
 .about .left .method p span::before{
@@ -492,13 +507,49 @@ footer h4 span{
        padding: 30px;
    } 
 
-   nav ul{
-       visibility: hidden;
+   nav .mainMenu{
+       height: 100vh;
+       position: fixed;
+       top: 0;
+       right: 0;
+       left: 0;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background: #F86363;
+       z-index: 99;
+       transform: .8s top ease-in;
+       display: none;
+   }
+
+   nav .mainMenu li{
+       margin: 0;
+   }
+
+   nav .mainMenu .closeMenu{
+       display: block;
+       position: absolute;
+       top: 30px; 
+       right: 30px;
+   }
+
+   nav .openMenu{
+       display: block;
+   }
+   
+   .icons i{
+       display: inline-block;
+       padding: 24px;
    }
 
    .logo{
        font-size: 24px;
    }
+
+   .checkbtn{
+       display: block;
+       color: #fff;
+    }
 
    .hero .title{
         font: normal normal 600 45px/48px 'Big Caslon';
