@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Extrabold.woff2') format('woff2'),
+        url('TRYVesterbro-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Bold.woff2') format('woff2'),
+        url('TRYVesterbro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Light.woff2') format('woff2'),
+        url('TRYVesterbro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Medium.woff2') format('woff2'),
+        url('TRYVesterbro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Poster.woff2') format('woff2'),
+        url('TRYVesterbro-Poster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Regular.woff2') format('woff2'),
+        url('TRYVesterbro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
