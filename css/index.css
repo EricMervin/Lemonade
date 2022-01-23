@@ -7,24 +7,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "Big Caslon"; 
-    src: url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot"); 
-    src: 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot?#iefix") format("embedded-opentype"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff2") format("woff2"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff") format("woff"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.ttf") format("truetype"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.svg#Big Caslon") format("svg"); 
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* @import url("../fonts/graphik/graphik.css"); */
-/* @import url("../fonts/vesterbro/vesterbro.css"); */
-/* @import url("../fonts/bigCaslon/bigCaslon.css"); */
-
 nav{
     /* background-color: #DB5A5A; */
     position: absolute;
