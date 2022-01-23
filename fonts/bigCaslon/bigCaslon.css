@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Big Caslon';
     src: url('BigCaslon-Medium.eot');
     src: url('BigCaslon-Medium.eot?#iefix') format('embedded-opentype'),
@@ -9,5 +9,30 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-}
+} */
 
+/* @font-face {
+    font-family: "Big Caslon"; 
+    src: url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot"); 
+    src: 
+    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.svg#Big Caslon Black") format("svg"); 
+    
+} */
+
+@font-face {
+    font-family: "Big Caslon"; 
+    src: url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot"); 
+    src: 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot?#iefix") format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.svg#Big Caslon") format("svg"); 
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

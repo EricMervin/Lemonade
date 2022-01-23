@@ -9,17 +9,7 @@
 
 @import url("../fonts/graphik/graphik.css");
 @import url("../fonts/vesterbro/vesterbro.css");
-/* @import url("../fonts/bigCaslon/bigCaslon.css"); */
-
-@font-face {font-family: "Big Caslon"; 
-    src: url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot"); 
-    src: 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.svg#Big Caslon Black") format("svg"); 
-}
+@import url("../fonts/bigCaslon/bigCaslon.css");
 
 nav{
     /* background-color: #DB5A5A; */
