@@ -11,7 +11,12 @@
 @import url("../fonts/vesterbro/vesterbro.css");
 @import url("../fonts/bigCaslon/bigCaslon.css");
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@font-face {
+    font-family: "DM Serif Display";
+    src: url("../fonts/DMSerifDisplay-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
 
 nav{
     padding: 60px 110px;
@@ -73,14 +78,14 @@ h1.pageTitle{
 h1.quote{
     margin: 150px 0 0 110px;
     width: 70vw;
-    font: normal normal normal 70px/75px 'DM Serif Display';
+    font: normal normal 400 70px/75px 'DM Serif Display';
     letter-spacing: -1.4px;
     color: #FC6464;
 }
 
 h1.quote span{
     margin-left: 1vw;
-    font: italic normal 500 40px/53px 'Graphik';
+    font: italic normal normal 40px/53px 'Graphik';
     letter-spacing: -2.4px;
     color: #404040;
 }
@@ -95,18 +100,18 @@ h1.quote span::before {
 }
 
 .positions{
-    margin: 200px 0 0 110px;
+    margin: 160px 0 0 110px;
 }
 
 .positions h3{
-    font: normal normal 500 40px/53px 'Graphik';
-    letter-spacing: -2.4px;
+    font: normal normal 400 54px/66px 'DM Serif Display';
+    letter-spacing: -1px;
     color: #404040;
 }
 
 .positions h5{
-    font: normal normal 500 20px/26px 'Graphik';
-    letter-spacing: -1.2px;
+    font: normal normal 400 24px/26px 'DM Serif Display';
+    letter-spacing: -.4px;
     color: #404040;
 }
 
@@ -127,7 +132,7 @@ h1.quote span::before {
 .meet .left h2 {
     width: 48vw;
     margin-top:  60px;
-    font: normal normal 400 60px/62px 'DM Serif Display';
+    font: normal normal normal 60px/62px 'TRY Vesterbro';
     letter-spacing: -2.4px;
     color: #FFFFFF;
 }
@@ -241,12 +246,12 @@ footer h4 span{
      h1.quote{
          margin: 130px 0 0 30px;
          width: 80vw;
-         font: normal normal normal 33px/36px 'DM Serif Display';
+         font: normal normal 400 33px/36px 'DM Serif Display';
          letter-spacing: -0.4px;
      }
 
      h1.quote span{
-         font: italic normal 500 13px/22px 'Graphik';
+         font: italic normal normal 13px/22px 'Graphik';
          letter-spacing: -0.96px;
          margin-left: -1vw;
      }
@@ -266,12 +271,12 @@ footer h4 span{
     }
 
     .positions h3{
-        font: normal normal normal 33px/48px 'DM Serif Display';
+        font: normal normal 400 33px/48px 'DM Serif Display';
         letter-spacing: -0.3px;
     }
     
     .positions h5{
-        font: normal normal normal 15px/17px 'DM Serif Display';
+        font: normal normal 400 15px/17px 'DM Serif Display';
         letter-spacing: -0.22px;
     }
 
@@ -291,7 +296,7 @@ footer h4 span{
      .meet .left h2{
          width: 100%;
          margin-top:  36px;
-         font: normal normal 400 25px/27px 'DM Serif Display';
+         font: normal normal normal 25px/27px 'TRY Vesterbro';
          letter-spacing: -1px;
      }
  
