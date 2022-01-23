@@ -19,12 +19,14 @@
     font-display: swap;
 } */
 
-/* @font-face {font-family: "Big Caslon Black"; src: url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot"); 
-    src: url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot?#iefix") format("embedded-opentype"), 
+@font-face {font-family: "Big Caslon Black"; 
+    src: url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot"); 
+    /* src: url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot?#iefix") format("embedded-opentype"), 
     url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff2") format("woff2"), 
     url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff") format("woff"), 
     url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.svg#Big Caslon Black") format("svg"); } */
+    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.svg#Big Caslon Black") format("svg");  */
+}
 
 nav{
     /* background-color: #DB5A5A; */
@@ -534,7 +536,7 @@ footer h4 span{
     }
 
    .hero .title{
-        font: normal normal 500 45px/48px 'Big Caslon';
+        font: normal normal 500 45px/48px 'Big Caslon Black';
         transform: none;
         top: 240px;
         left: 30px;
@@ -583,7 +585,7 @@ footer h4 span{
    }
 
    .latest .projectInfo .content h1 span{
-       font: normal normal 500 33px/30px 'Big Caslon';
+       font: normal normal 500 33px/30px 'Big Caslon Black';
        letter-spacing: -1.49px;
    }
 
@@ -793,7 +795,7 @@ footer h4 span{
 
     .tagline{
         padding: 30px 0;
-        font: normal normal 500 18px/21px 'Big Caslon';
+        font: normal normal 500 18px/21px 'Big Caslon Black';
     }
 
     footer{
