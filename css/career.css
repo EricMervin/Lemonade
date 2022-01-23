@@ -6,10 +6,17 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
-
 @import url("../fonts/graphik/graphik.css");
 @import url("../fonts/vesterbro/vesterbro.css");
 @import url("../fonts/bigCaslon/bigCaslon.css");
+
+@font-face {
+    font-family: 'Big Caslon TTF';
+    src: url('BigCaslon-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: "DM Serif Display";
@@ -317,7 +324,7 @@ footer h4 span{
  
      .tagline{
          padding: 30px 0;
-         font: normal normal 500 18px/21px 'Big Caslon';
+         font: normal normal 500 18px/21px 'Big Caslon TTF';
      }
  
      footer{

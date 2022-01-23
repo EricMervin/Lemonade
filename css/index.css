@@ -11,6 +11,14 @@
 @import url("../fonts/vesterbro/vesterbro.css");
 @import url("../fonts/bigCaslon/bigCaslon.css");
 
+@font-face {
+    font-family: 'Big Caslon TTF';
+    src: url('BigCaslon-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 nav{
     /* background-color: #DB5A5A; */
     position: absolute;
@@ -519,7 +527,7 @@ footer h4 span{
     }
 
    .hero .title{
-        font: normal normal 500 45px/48px 'Big Caslon';
+        font: normal normal 500 45px/48px 'Big Caslon TTF';
         transform: none;
         top: 240px;
         left: 30px;
@@ -568,7 +576,7 @@ footer h4 span{
    }
 
    .latest .projectInfo .content h1 span{
-       font: normal normal 500 33px/30px 'Big Caslon';
+       font: normal normal 500 33px/30px 'Big Caslon TTF';
        letter-spacing: -1.49px;
    }
 
@@ -778,7 +786,7 @@ footer h4 span{
 
     .tagline{
         padding: 30px 0;
-        font: normal normal 500 18px/21px 'Big Caslon';
+        font: normal normal 500 18px/21px 'Big Caslon TTF';
     }
 
     footer{
