@@ -7,6 +7,51 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Big Caslon"; 
+    src: url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot"); 
+    src: 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot?#iefix") format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.svg#Big Caslon") format("svg"); 
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("woff"),
+        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("opentype"),
+        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("woff"),
+        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("opentype"),
+        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("woff"),
+        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("opentype"),
+        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* @import url("../fonts/graphik/graphik.css");
 @import url("../fonts/vesterbro/vesterbro.css");
 @import url("../fonts/bigCaslon/bigCaslon.css"); */
@@ -801,49 +846,6 @@ footer h4 span{
     }
 }
 
-@font-face {
-    font-family: "Big Caslon"; 
-    src: url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot"); 
-    src: 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot?#iefix") format("embedded-opentype"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff2") format("woff2"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.woff") format("woff"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.ttf") format("truetype"), 
-        url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.svg#Big Caslon") format("svg"); 
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TRY Vesterbro';
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("woff"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("opentype"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TRY Vesterbro';
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("woff"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("opentype"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TRY Vesterbro';
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("woff"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("opentype"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
 
 /* @font-face {
     font-family: 'Graphik';
