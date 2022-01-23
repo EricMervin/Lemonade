@@ -11,12 +11,8 @@
 @import url("../fonts/vesterbro/vesterbro.css");
 @import url("../fonts/bigCaslon/bigCaslon.css");
 
-@font-face {
-    font-family: "DM Serif Display";
-    src: url("../fonts/DMSerifDisplay-Regular.ttf");
-    font-weight: 500;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 nav{
     padding: 60px 110px;
     width: 100vw;
@@ -131,7 +127,7 @@ h1.quote span::before {
 .meet .left h2 {
     width: 48vw;
     margin-top:  60px;
-    font: normal normal normal 60px/62px 'TRY Vesterbro';
+    font: normal normal 400 60px/62px 'DM Serif Display';
     letter-spacing: -2.4px;
     color: #FFFFFF;
 }
@@ -295,7 +291,7 @@ footer h4 span{
      .meet .left h2{
          width: 100%;
          margin-top:  36px;
-         font: normal normal normal 25px/27px 'TRY Vesterbro';
+         font: normal normal 400 25px/27px 'DM Serif Display';
          letter-spacing: -1px;
      }
  
