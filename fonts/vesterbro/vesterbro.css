@@ -1,7 +1,11 @@
-/* @font-face {
+@font-face {
     font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Extrabold.woff2') format('woff2'),
-        url('TRYVesterbro-Extrabold.woff') format('woff');
+    src: url('TRYVesterbro-Extrabold.eot');
+    src: url('TRYVesterbro-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('TRYVesterbro-Extrabold.woff2') format('woff2'),
+        url('TRYVesterbro-Extrabold.woff') format('woff'),
+        url('TRYVesterbro-Extrabold.ttf') format('truetype'),
+        url('TRYVesterbro-Extrabold.svg#TRYVesterbro-Extrabold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +13,25 @@
 
 @font-face {
     font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Bold.woff2') format('woff2'),
-        url('TRYVesterbro-Bold.woff') format('woff');
+    src: url('TRYVesterbro-Regular.eot');
+    src: url('TRYVesterbro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TRYVesterbro-Regular.woff2') format('woff2'),
+        url('TRYVesterbro-Regular.woff') format('woff'),
+        url('TRYVesterbro-Regular.ttf') format('truetype'),
+        url('TRYVesterbro-Regular.svg#TRYVesterbro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Bold.eot');
+    src: url('TRYVesterbro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TRYVesterbro-Bold.woff2') format('woff2'),
+        url('TRYVesterbro-Bold.woff') format('woff'),
+        url('TRYVesterbro-Bold.ttf') format('truetype'),
+        url('TRYVesterbro-Bold.svg#TRYVesterbro-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,8 +39,25 @@
 
 @font-face {
     font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Light.woff2') format('woff2'),
-        url('TRYVesterbro-Light.woff') format('woff');
+    src: url('TRYVesterbro-Poster.eot');
+    src: url('TRYVesterbro-Poster.eot?#iefix') format('embedded-opentype'),
+        url('TRYVesterbro-Poster.woff2') format('woff2'),
+        url('TRYVesterbro-Poster.woff') format('woff'),
+        url('TRYVesterbro-Poster.ttf') format('truetype'),
+        url('TRYVesterbro-Poster.svg#TRYVesterbro-Poster') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Vesterbro';
+    src: url('TRYVesterbro-Light.eot');
+    src: url('TRYVesterbro-Light.eot?#iefix') format('embedded-opentype'),
+        url('TRYVesterbro-Light.woff2') format('woff2'),
+        url('TRYVesterbro-Light.woff') format('woff'),
+        url('TRYVesterbro-Light.ttf') format('truetype'),
+        url('TRYVesterbro-Light.svg#TRYVesterbro-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -27,95 +65,14 @@
 
 @font-face {
     font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Medium.woff2') format('woff2'),
-        url('TRYVesterbro-Medium.woff') format('woff');
+    src: url('TRYVesterbro-Medium.eot');
+    src: url('TRYVesterbro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TRYVesterbro-Medium.woff2') format('woff2'),
+        url('TRYVesterbro-Medium.woff') format('woff'),
+        url('TRYVesterbro-Medium.ttf') format('truetype'),
+        url('TRYVesterbro-Medium.svg#TRYVesterbro-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Poster.woff2') format('woff2'),
-        url('TRYVesterbro-Poster.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Regular.woff2') format('woff2'),
-        url('TRYVesterbro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-} */
-
-
-
-/* @font-face {
-    font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Extrabold.woff2') format('woff2'),
-        url('TRYVesterbro-Extrabold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face{
-    font-family:"try-vesterbro-extrabold-regular";
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Extrabold.otf") format("woff"),
-    url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Extrabold.otf") format("opentype"),
-    url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Extrabold.otf") format("truetype");
-}
-
-@font-face {
-    font-family: 'TRY Vesterbro';
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Extrabold.otf") format("woff"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Extrabold.otf") format("opentype"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Extrabold.otf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: 'TRY Vesterbro';
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("woff"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("opentype"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Bold.otf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: 'TRY Vesterbro';
-    src: url('TRYVesterbro-Light.woff2') format('woff2'),
-        url('TRYVesterbro-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: 'TRY Vesterbro';
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("woff"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("opentype"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Medium.otf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: 'TRY Vesterbro';
-    src:url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("woff"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("opentype"),
-        url("https://fontsme.com/wp-data/v/849/13849/file/TRYVesterbro-Regular.otf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-} */
 
