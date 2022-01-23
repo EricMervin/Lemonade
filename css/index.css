@@ -11,24 +11,6 @@
 @import url("../fonts/vesterbro/vesterbro.css");
 @import url("../fonts/bigCaslon/bigCaslon.css");
 
-/* @font-face {
-    font-family: 'Big Caslon TTF';
-    src: url('BigCaslon-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face {font-family: "Big Caslon Black"; 
-    src: url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot"); 
-    src: 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/789f9065baf48309d73fd0ff02fe4aec.svg#Big Caslon Black") format("svg"); 
-} */
-
 nav{
     /* background-color: #DB5A5A; */
     position: absolute;
@@ -402,6 +384,7 @@ nav .closeMenu, .icons i{
     border-radius: 108px;
     background: transparent linear-gradient(95deg, #313131 0%, #626262 100%) 0% 0% no-repeat padding-box;
     padding: 54px 100px;
+    display: none;
 }
 
 .faq .contact h1{
