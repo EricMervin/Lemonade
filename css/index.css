@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+@import url("../fonts/graphik/graphik.css");
+
 @font-face {
     font-family: "TRY Vesterbro";
     src: url("../fonts/vesterbro/TRYVesterbro-Medium.otf");
@@ -28,30 +30,6 @@
 @font-face {
     font-family: "Big Caslon";
     src: url("../fonts/BigCaslon.ttf");
-}
-
-@font-face {
-    font-family: "Graphik";
-    src: url("../fonts/graphik/GraphikRegular.otf");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Graphik";
-    font-weight: 600;
-    src: url("../fonts/graphik/GraphikMedium.otf");
-}
-
-@font-face {
-    font-family: "Graphik Italics";
-    font-weight: 300;
-    src: url("../fonts/graphik/GraphikLightItalic.otf");
-}
-
-@font-face {
-    font-family: "Graphik";
-    font-weight: 300;
-    src: url("../fonts/graphik/GraphikLight.otf");
 }
 
 nav{
@@ -136,7 +114,7 @@ nav .closeMenu, .icons i{
 }
 
 .hero .scroll{
-    top: 80%;
+    top: 90%;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -144,8 +122,8 @@ nav .closeMenu, .icons i{
 
 .hero .scroll h2{
     color: #fff;
-    font-family: sans-serif;
-    font-weight: 100;
+    font: normal normal normal 27px/40px 'Graphik';
+    letter-spacing: -0.4px;
 }
 
 .latest{
@@ -175,12 +153,12 @@ nav .closeMenu, .icons i{
 
 .latest .projectInfo .content h4{
     color: #F86363;
-    font: normal normal 600 21px/80px 'Graphik';
-    letter-spacing: -0.63px;
+    font: normal normal normal 21px/80px 'Graphik';
+    letter-spacing: -0.23px;
 }
 
 .latest .projectInfo .content h1{
-    font: normal normal 600 50px/52px 'Graphik';
+    font: normal normal normal 50px/52px 'Graphik';
     color: #1D1D1D;
     letter-spacing: -2px;
 }
@@ -192,7 +170,8 @@ nav .closeMenu, .icons i{
 
 .latest .projectInfo .content p{
     margin-top: 24px;
-    font: italic normal 300 18px/24px 'Graphik Italics';
+    width: 80%;
+    font: italic normal 300 19px/26px 'Graphik';
     letter-spacing: -0.3px;
     color: #000000;
     margin-bottom: 24px;
@@ -220,7 +199,7 @@ nav .closeMenu, .icons i{
     letter-spacing: -0.6px;
     margin-right: 15px;
     white-space: nowrap;
-    font: normal normal 500 18px/30px 'Graphik';
+    font: normal normal normal 18px/30px 'Graphik';
 }
 
 /* .latest .projectInfo .content .tags .row2{
@@ -229,7 +208,7 @@ nav .closeMenu, .icons i{
 } */
 
 .latest .projectInfo .content .readMore {
-    font: normal normal 500 18px 'Graphik';
+    font: normal normal normal 18px 'Graphik';
     color: #F86363;
 }
 
@@ -262,7 +241,7 @@ nav .closeMenu, .icons i{
     margin-left: -2vw;
     width: 21vw;
     letter-spacing: -7.2px;
-    font:normal normal 600 96px/96px 'Graphik';
+    font:normal normal 500 96px/96px 'Graphik';
 }
 
 .boldText .first span{
@@ -279,20 +258,20 @@ nav .closeMenu, .icons i{
 
 .boldText .second span{
     color: #F86363;
-    font:normal normal 600 96px/96px 'Graphik';
+    font:normal normal 500 96px/96px 'Graphik';
 }
 
 .boldText .third{
     margin-right: -2vw;
     width: 21vw;
     letter-spacing: -7.2px;
-    font:normal normal 600 96px/96px 'Graphik';
+    font:normal normal 500 96px/96px 'Graphik';
 }
 
 .boldText .third .red{
     color: #F86363;
     letter-spacing: -7.2px;
-    font:normal normal 600 96px/96px 'Graphik';
+    font:normal normal 500 96px/96px 'Graphik';
 }
 
 .boldText .third span{
@@ -312,7 +291,7 @@ nav .closeMenu, .icons i{
 }
 
 .about .left .company .heading{
-    font: normal normal 600 50px/33px 'Graphik';
+    font: normal normal 500 50px/33px 'Graphik';
     letter-spacing: -1px;
     color: #2C2C2C;
     margin-bottom: 30px;
@@ -329,7 +308,7 @@ nav .closeMenu, .icons i{
 }
 
 .about .left .method .heading{
-    font: normal normal 600 50px/33px 'Graphik';
+    font: normal normal 500 50px/33px 'Graphik';
     letter-spacing: -1px;
     color: #2C2C2C;
     margin-bottom: 30px;
@@ -368,7 +347,7 @@ nav .closeMenu, .icons i{
     right: -20vh;
     white-space: nowrap;
     transform: translate(0, -50%);
-    font: normal normal 600 112px/112px 'Graphik';
+    font: normal normal 500 112px/112px 'Graphik';
     letter-spacing: -2.4px;
     color: #2C2C2C;
 }
@@ -389,7 +368,7 @@ nav .closeMenu, .icons i{
 }
 
 .faq h1{
-    font: normal normal 600 40px/53px 'Graphik';
+    font: normal normal 500 40px/53px 'Graphik';
     letter-spacing: -0.8px;
 }
 
@@ -461,13 +440,14 @@ nav .closeMenu, .icons i{
 }
 
 .meet .right h3{
-    font: normal normal 500 24px/54px 'Graphik';
-    letter-spacing: -1.44px;
+    margin-top: 06px;
+    font: normal normal 500 21px/30px 'Graphik';
+    letter-spacing: -.6px;
     color: #FFFFFF;
 }
 
 .meet .right h1{
-    font: normal normal 300 42px 'Graphik';
+    font: normal normal 200 42px 'Graphik';
     letter-spacing: -1.26px;
     color: #FFFFFF;
 }
@@ -489,19 +469,19 @@ footer{
 }
 
 footer h1{
-    font: normal normal 600 30px/70px 'Graphik';
+    font: normal normal 500 30px/70px 'Graphik';
     letter-spacing: -1.8px;
     color: #DB5A5A;
 }
 
 footer h4{
-    font: normal normal 500 21px/70px 'Graphik';
+    font: normal normal 300 21px/70px 'Graphik';
     letter-spacing: -1.26px;
     color: #FFFFFF;
 }
 
 footer h4 span{
-    font: normal normal 600 21px/70px 'Graphik';
+    font: normal normal normal 21px/70px 'Graphik';
 }
 
 @media (max-width: 480px){
@@ -536,8 +516,8 @@ footer h4 span{
    nav .mainMenu .closeMenu{
        display: block;
        position: absolute;
-       top: 24px; 
-       right: 30px;
+       top: 29px; 
+       right: 32px;
    }
 
    nav .openMenu{
@@ -598,23 +578,23 @@ footer h4 span{
    }
 
    .latest .projectInfo .content h4{
-       font: normal normal 600 14px/67px 'Graphik';
-       letter-spacing: -0.42px;
+       font: normal normal normal 16px/67px 'Graphik';
+       letter-spacing: -0.22px;
    }   
 
    .latest .projectInfo .content h1{
-       font: normal normal medium 33px/21px 'Graphik';
+       font: normal normal medium 33px/30px 'Graphik';
        margin-top: -20px;
        letter-spacing: -1.49px;
    }
 
    .latest .projectInfo .content h1 span{
-       font: normal normal medium 33px/34px 'Big Caslon';
+       font: normal normal medium 33px/30px 'Big Caslon';
        letter-spacing: -1.49px;
    }
 
    .latest .projectInfo .content p{
-       font: italic normal 300 15px/18px 'Graphik Italics';
+       font: italic normal 300 15px/18px 'Graphik';
        margin: 18px 0;
    }
 
@@ -625,11 +605,11 @@ footer h4 span{
    .latest .projectInfo .content .tags .tag{
        padding: 9px 18px;
        margin-right: 12px;
-       font: normal normal 500 13px'Graphik';
+       font: normal normal normal 13px 'Graphik';
    }
 
    .latest .projectInfo .content .readMore{
-       font: normal normal 500 13px'Graphik';
+       font: normal normal normal 13px 'Graphik';
    }
 
    .latest .projectInfo .content .readMore i{
@@ -654,7 +634,7 @@ footer h4 span{
         margin-left: -18vw;
         width: 18vw;
         letter-spacing: -1.8px;
-        font:normal normal 600 30px/29px 'Graphik';
+        font:normal normal 500 30px/29px 'Graphik';
     }
 
     .boldText .first span{
@@ -666,7 +646,7 @@ footer h4 span{
         /* margin-left: -9vw; */
         width: 18vw;
         letter-spacing: -1.8px;
-        font:normal normal 600 30px/29px 'Graphik';
+        font:normal normal 500 30px/29px 'Graphik';
     }
 
     .boldText .second span{
@@ -678,12 +658,12 @@ footer h4 span{
         margin-right: 0vw;
         width: 18vw;
         letter-spacing: -1.8px;
-        font:normal normal 600 30px/29px 'Graphik';
+        font:normal normal 500 30px/29px 'Graphik';
     }
 
     .boldText .third .red{
         letter-spacing: -1.8px;
-        font:normal normal 600 30px/29px 'Graphik';
+        font:normal normal 500 30px/29px 'Graphik';
     }
 
     .boldText .third span{
@@ -700,7 +680,7 @@ footer h4 span{
     }
 
     .about .left .company .heading{
-        font: normal normal 600 33px/33px 'Graphik';
+        font: normal normal 500 33px/33px 'Graphik';
         margin-bottom: 24px;
     }
 
@@ -714,7 +694,7 @@ footer h4 span{
     }
 
     .about .left .method .heading{
-        font: normal normal 600 33px/33px 'Graphik';
+        font: normal normal 500 33px/33px 'Graphik';
         margin-bottom: 24px;
     }
 
@@ -736,7 +716,7 @@ footer h4 span{
     .about .right .title{
         top: 57%;
         right: -18vw;
-        font: normal normal 600 33px/33px 'Graphik';
+        font: normal normal 500 33px/33px 'Graphik';
         letter-spacing: -0.54px;
     }
 
@@ -754,7 +734,7 @@ footer h4 span{
     }
 
     .faq h1{
-        font: normal normal 600 33px/33px 'Graphik';
+        font: normal normal 500 33px/33px 'Graphik';
         letter-spacing: -0.66px;
     }
 
@@ -812,7 +792,7 @@ footer h4 span{
     }
 
     .meet .right h1{
-        font: normal normal 300 28px 'Graphik';
+        font: normal normal 200 28px 'Graphik';
         letter-spacing: -0.78px;
         padding-bottom: 15px;
     }
@@ -827,16 +807,16 @@ footer h4 span{
     }
 
     footer h1{
-        font: normal normal 600 18px/33px 'Graphik';
+        font: normal normal 500 18px/33px 'Graphik';
         letter-spacing: -1.08px;
     }
 
     footer h4{
-        font: normal normal 500 10px/33px 'Graphik';
+        font: normal normal 300 10px/33px 'Graphik';
         letter-spacing: -0.6px;
     }
 
     footer h4 span{
-        font: normal normal 600 10px/33px 'Graphik';
+        font: normal normal normal 10px/33px 'Graphik';
     }
 }

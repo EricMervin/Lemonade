@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+@import url("../fonts/graphik/graphik.css");
+
 @font-face {
     font-family: "DM Serif Display";
     src: url("../fonts/DMSerifDisplay-Regular.ttf");
@@ -35,30 +37,6 @@
 @font-face {
     font-family: "Big Caslon";
     src: url("../fonts/BigCaslon.ttf");
-}
-
-@font-face {
-    font-family: "Graphik";
-    src: url("../fonts/graphik/GraphikRegular.otf");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Graphik";
-    font-weight: 600;
-    src: url("../fonts/graphik/GraphikMedium.otf");
-}
-
-@font-face {
-    font-family: "Graphik Italics";
-    font-weight: 300;
-    src: url("../fonts/graphik/GraphikLightItalic.otf");
-}
-
-@font-face {
-    font-family: "Graphik";
-    font-weight: 300;
-    src: url("../fonts/graphik/GraphikLight.otf");
 }
 
 nav{
@@ -112,7 +90,7 @@ nav .mainMenu li a{
 }
 
 h1.pageTitle{
-    font: normal normal 600 81px/108px 'Graphik';
+    font: normal normal 500 81px/108px 'Graphik';
     letter-spacing: -1.62px;
     color: #2C2C2C;
     margin: 15px 0 0 110px;
@@ -147,7 +125,7 @@ h1.quote span::before {
 }
 
 .positions h3{
-    font: normal normal 600 40px/53px 'Graphik';
+    font: normal normal 500 40px/53px 'Graphik';
     letter-spacing: -2.4px;
     color: #404040;
 }
@@ -173,6 +151,7 @@ h1.quote span::before {
 }
 
 .meet .left h2 {
+    width: 48vw;
     margin-top:  60px;
     font: normal normal 400 60px/62px 'TRY Vesterbro';
     letter-spacing: -2.4px;
@@ -208,24 +187,24 @@ footer{
 }
 
 footer h1{
-    font: normal normal 600 30px/70px 'Graphik';
+    font: normal normal 500 30px/70px 'Graphik';
     letter-spacing: -1.8px;
     color: #DB5A5A;
 }
 
 footer h4{
-    font: normal normal 500 21px/70px Graphik;
+    font: normal normal 300 21px/70px 'Graphik';
     letter-spacing: -1.26px;
     color: #FFFFFF;
 }
 
 footer h4 span{
-    font: normal normal 600 21px/70px Graphik;
+    font: normal normal normal 21px/70px 'Graphik';
 }
 
 @media (max-width: 480px) {
     nav{
-        padding: 24px 30px;
+        padding: 27px 30px;
         position: fixed;
         top:0px;
         z-index: 9;
@@ -256,8 +235,8 @@ footer h4 span{
     nav .mainMenu .closeMenu{
         display: block;
         position: absolute;
-        top: 24px; 
-        right: 30px;
+        top: 29px; 
+        right: 32px;
     }
  
     nav .openMenu{
@@ -281,7 +260,7 @@ footer h4 span{
 
      h1.pageTitle{
          margin: 130px 0px 0 30px;
-         font: normal normal 600 42px/34px 'Graphik';
+         font: normal normal 500 42px/34px 'Graphik';
          letter-spacing: -1.49px;
      }
 
@@ -361,18 +340,18 @@ footer h4 span{
      footer{
          padding: 30px 30px;
      }
- 
+
      footer h1{
-         font: normal normal 600 18px/33px 'Graphik';
+         font: normal normal 500 18px/33px 'Graphik';
          letter-spacing: -1.08px;
      }
  
      footer h4{
-         font: normal normal 500 10px/33px 'Graphik';
+         font: normal normal 300 10px/33px 'Graphik';
          letter-spacing: -0.6px;
      }
  
      footer h4 span{
-         font: normal normal 600 10px/33px 'Graphik';
+         font: normal normal normal 10px/33px 'Graphik';
      }
 }
