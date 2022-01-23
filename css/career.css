@@ -210,6 +210,10 @@ footer h4 span{
     nav .mainMenu li{
         margin: 0;
     }
+
+    nav .mainMenu li a{
+        color: #fff;
+    }
  
     nav .mainMenu .closeMenu{
         display: block;
