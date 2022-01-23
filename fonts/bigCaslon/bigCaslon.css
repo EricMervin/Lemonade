@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: 'Big Caslon';
     src: url('BigCaslon-Medium.eot');
     src: url('BigCaslon-Medium.eot?#iefix') format('embedded-opentype'),
@@ -9,9 +9,9 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-} */
+}
 
-@font-face {
+/* @font-face {
     font-family: "Big Caslon"; 
     src: url("//db.onlinewebfonts.com/t/4a836f00bd7d75f5f942e1ee9ec3c064.eot"); 
     src: 
@@ -23,4 +23,4 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-}
+} */
