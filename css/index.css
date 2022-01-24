@@ -526,11 +526,13 @@ footer h4 span{
     }
 
    .hero .title{
-        font: normal normal 500 45px/48px 'Big Caslon';
-        transform: none;
-        top: 240px;
-        left: 30px;
-        right: 30px;
+        font: normal normal 500 48px/54px 'Big Caslon';
+        /* transform: translate(-50%, -50%);
+        left: 50%; */
+        top: 40%;
+        /* left: 30px;
+        right: 30px; */
+        text-align: center;
         white-space: normal;
    }
 
@@ -624,14 +626,14 @@ footer h4 span{
     }
 
     .boldText .first span{
-        letter-spacing: -1px;
+        letter-spacing: -.8px;
         font:italic normal 600 30px/29px 'DM Serif Display';
     }
 
     .boldText .second{
         /* margin-left: 2vw; */
         width: 30vw;
-        letter-spacing: -1.8px;
+        letter-spacing: -1px;
         font:normal normal 600 30px/29px 'Big Caslon';
     }
 
