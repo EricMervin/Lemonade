@@ -82,7 +82,7 @@ h1.pageTitle{
 
 .projects .project .bottomBox{
     bottom: 0;
-    padding: 15px 30px;
+    padding: .6vw 1.2vw;
     background-color: #000000;
     color: #fff;
     width: inherit;
@@ -103,23 +103,25 @@ h1.pageTitle{
 
 .projects .project .bottomBox .topLine .companyName::after{
     content: "• ";
-    padding: 0 15px;
+    padding: 0 .6vw;
 }
 
 .projects .project .bottomBox .topLine .industry{
-    font: normal normal 500 19px/27px 'Graphik';
-    letter-spacing: -.8px;
-    display: flex;
-    align-items: center;
+    font: normal normal 500 17px/27px 'Graphik';
+    letter-spacing: -1px;
+    white-space: nowrap;
 }
 
 .projects .project .bottomBox .topLine .industry span{
-    font: normal normal 300 19px/27px 'Graphik';
+    font: normal normal 300 17px/27px 'Graphik';
     margin-right: 1.2px;
 }
 
 .projects .project .bottomBox .bottomLine{
-    margin-top: 6px;
+    margin-top: 3px;
+}
+
+.projects .project .bottomBox .bottomLine .job{
     font: normal normal 500 15px/20px 'Graphik';
     letter-spacing: -0.3px;
 }
@@ -321,6 +323,7 @@ footer h4 span{
 
     .quote span{
         font: normal normal bold 36px/36px 'TRY Vesterbro';
+        letter-spacing: -1.4px;
     }
 
     .meet{

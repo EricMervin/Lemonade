@@ -220,8 +220,8 @@ nav .closeMenu, .icons i{
 }
 
 .boldText .first span{
-    font: italic normal normal 96px/96px Serif;
-    letter-spacing: -6px;
+    font: italic normal normal 96px/96px 'DM Serif Display';
+    letter-spacing: -4px;
     color: #F86363;
 }
 
@@ -250,8 +250,8 @@ nav .closeMenu, .icons i{
 }
 
 .boldText .third span{
-    font: italic normal normal 96px/96px Serif;
-    letter-spacing: -6px;
+    font: italic normal normal 96px/96px 'DM Serif Display';
+    letter-spacing: -4px;
 }
 
 .about {
@@ -306,9 +306,9 @@ nav .closeMenu, .icons i{
     position: absolute;
     font-size: 330px;
     color: #F86363;
-    z-index: 0;
+    z-index: -1;
     transform: translate(-50%, -20%);
-    mix-blend-mode: overlay;
+    /* mix-blend-mode: overlay; */
 }
 
 .about .right{
@@ -460,6 +460,10 @@ footer h4 span{
     font: normal normal normal 21px/70px 'Graphik';
 }
 
+@media (max-width: 1440px){
+
+}
+
 @media (max-width: 480px){
    nav{
        padding: 27px 30px;
@@ -607,32 +611,32 @@ footer h4 span{
     }
 
     .boldText .first{
-        margin-left: -18vw;
-        width: 18vw;
+        margin-left: -12vw;
+        width: 30vw;
         letter-spacing: -1.8px;
         font:normal normal 500 30px/29px 'Graphik';
     }
 
     .boldText .first span{
-        letter-spacing: -1.8px;
-        font:normal normal 600 30px/29px Serif;
+        letter-spacing: -1px;
+        font:italic normal 600 30px/29px 'DM Serif Display';
     }
 
     .boldText .second{
-        /* margin-left: -9vw; */
-        width: 18vw;
+        /* margin-left: 2vw; */
+        width: 30vw;
         letter-spacing: -1.8px;
-        font:normal normal 500 30px/29px 'Graphik';
+        font:normal normal 600 30px/29px 'Big Caslon';
     }
 
     .boldText .second span{
         letter-spacing: -1.8px;
-        font:normal normal 600 30px/29px Serif;
+        font:normal normal 500 30px/29px 'Graphik';
     }
 
     .boldText .third{
-        margin-right: 0vw;
-        width: 18vw;
+        margin-right: -12vw;
+        width: 30vw;
         letter-spacing: -1.8px;
         font:normal normal 500 30px/29px 'Graphik';
     }
@@ -643,8 +647,8 @@ footer h4 span{
     }
 
     .boldText .third span{
-        letter-spacing: -1.8px;
-        font:normal normal 600 30px/29px Serif;
+        letter-spacing: -.6px;
+        font:italic normal 600 30px/29px 'DM Serif Display';
     }
 
     .about{
