@@ -461,7 +461,13 @@ footer h4 span{
 }
 
 @media (max-width: 1440px){
+    .hero .title{
+        font:normal normal 500 54px/72px 'Big Caslon';
+    }
 
+    .hero .watermark{
+        font:normal normal 500 180px/216px 'Big Caslon';
+    }
 }
 
 @media (max-width: 480px){
